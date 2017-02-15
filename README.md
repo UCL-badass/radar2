@@ -9,7 +9,9 @@ RADAR is a lightweight modelling language and decision analysis tool to support 
   - What parameter uncertainty does not matter to their decision.
 
 You can find details about RADAR on the [project webpage](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/)
+
 # Papers
+
 The modelling language and decision analysis support tool are described in the following paper which has been accepted for publication at ICSE17:
 
 [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): ["RADAR: A Lightwight Tool for Requirements and Architecture Decision Analysis"](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf), to appear in ICSE17, Buenos Aires, Argentina.
@@ -19,11 +21,13 @@ The scalability analysis of RADAR desision support tool is described in the pape
 [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): ["Scalability Analysis of the RADAR Decision Support Tool"], Available Online: https://arxiv.org/pdf/1702.02977.pdf.
 
 # Downloads
+
 The RADAR tool is available and can be downloaded [here] (http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/RADAR.jar), and all model examples used in the paper can be downloaded [here] (http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ModelExamples.zip).
 
 We have also made the [source code](https://github.com/sbusari/RADAR) of the tool available in GitHub. The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in [DOT format](http://www.graphviz.org/Documentation/dotguide.pdf), and uses [Graphviz](http://graphviz.org/) (also available in [browser](http://webgraphviz.com/)) to visualise the diagrams.
 
 # How to use RADAR
+
 RADAR is a self-contained jar file. Simply download the file to your computer and double click to launch the application (needs JRE 1.7 or later versions). Once the application is launched successfully, a window appears with three panels as shown in figure 1:
   - **Model Board** where modellers can write their own models and also load existing models for review.
   - **Analysis Settings** for specifying parameters for model analysis. Examples of these parameters includes:
