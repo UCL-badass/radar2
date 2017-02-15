@@ -12,7 +12,7 @@ You can find details about RADAR on the [project webpage](http://www0.cs.ucl.ac.
 # Papers
 The modelling language and decision analysis support tool are described in the following paper which has been accepted for publication at ICSE17:
 
-[ [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): "RADAR: A Lightwight Tool for Requirements and Architecture Decision Analysis"](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf), to appear in ICSE17, Buenos Aires, Argentina.
+[Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): ["RADAR: A Lightwight Tool for Requirements and Architecture Decision Analysis"](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf), to appear in ICSE17, Buenos Aires, Argentina.
 
 The scalability analysis of RADAR desision support tool is described in the paper below:
 
