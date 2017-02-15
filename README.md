@@ -15,7 +15,8 @@ The modelling language and decision analysis support tool are described in the f
 [ [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): "RADAR: A Lightwight Tool for Requirements and Architecture Decision Analysis"](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf), to appear in ICSE17, Buenos Aires, Argentina.
 
 The scalability analysis of RADAR desision support tool is described in the paper below:
-[Saheed A. Busari and Emmanuel Letier: "Scalability Analysis of the RADAR Decision Support Tool", Available: https://arxiv.org/abs/1702.02977 ](https://arxiv.org/pdf/1702.02977.pdf).
+
+[ [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): "Scalability Analysis of the RADAR Decision Support Tool", Available: https://arxiv.org/abs/1702.02977 ](https://arxiv.org/pdf/1702.02977.pdf).
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
