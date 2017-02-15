@@ -28,11 +28,11 @@ RADAR is a self-contained jar file. Simply download the file to your computer an
   - Model Board where modellers can write their own models and also load existing models for review.
   - Analysis Settings for specifying parameters for model analysis. Examples of these parameters includes:
    - The number of Monte-Carlo simulation run.
-  
-  ..* Output directory where model analysis results are stored.
-  ..* Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi)
-  ..* Sub-graph objective for restricting the AND/OR graph to a single specified objective
-  ..* Some checkboxes used to indicate users' preferences on whether the tool should generate AND/OR dependency graph, decision dependency graph and the Pareto front.
+   - Output directory where model analysis results are stored.
+   - Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi)
+   - Sub-graph objective for restricting the AND/OR graph to a single specified objective
+   - Some checkboxes used to indicate users' preferences on whether the tool should generate AND/OR dependency graph, decision dependency graph and the Pareto front.
+  - **Decisions** which displays all specified model decisions and their corresponding options once the model has been parsed successfully.
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
