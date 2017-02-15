@@ -9,8 +9,8 @@ RADAR is a lightweight modelling language and decision analysis tool to support 
   - What parameter uncertainty does not matter to their decision.
 
 You can find details about RADAR on the [project webpage](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/)
-# Paper
-The modelling language and decision analysis support are described in the  [paper](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf) under submission.
+# Papers
+The modelling language and decision analysis support are described in the  [paper](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/radar_icse17.pdf) submission.
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
