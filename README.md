@@ -23,6 +23,16 @@ The RADAR tool is available and can be downloaded [here] (http://www0.cs.ucl.ac.
 
 We have also made the [source code](https://github.com/sbusari/RADAR) of the tool available in GitHub. The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in [DOT format](http://www.graphviz.org/Documentation/dotguide.pdf), and uses [Graphviz](http://graphviz.org/) (also available in [browser](http://webgraphviz.com/)) to visualise the diagrams.
 
+# How to use RADAR
+RADAR is a self-contained jar file. Simply download the file to your computer and double click to launch the application (needs JRE 1.7 or later versions). Once the application is launched successfully, a window appears with three panels as shown in figure 1:
+  - Model Board where modellers can write their own models and also load existing models for review.
+  - Analysis Settings for specifying parameters for model analysis. Examples of these parameters includes:
+  ..*The number of Monte-Carlo simulation run.
+  ..*Output directory where model analysis results are stored.
+  ..*Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi)
+  ..*Sub-graph objective for restricting the AND/OR graph to a single specified objective
+  ..*Some checkboxes used to indicate users' preferences on whether the tool should generate AND/OR dependency graph, decision dependency graph and the Pareto front.
+
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
 
