@@ -18,6 +18,11 @@ The scalability analysis of RADAR desision support tool is described in the pape
 
 [Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanule Letier] (http://letier.cs.ucl.ac.uk/): ["Scalability Analysis of the RADAR Decision Support Tool"], Available Online: https://arxiv.org/pdf/1702.02977.pdf.
 
+# Downloads
+The RADAR tool is available and can be downloaded [here] (http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/RADAR.jar), and all model examples used in the paper can be downloaded [here] (http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ModelExamples.zip).
+
+We have also made the [source code](https://github.com/sbusari/RADAR) of the tool available in GitHub. The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in [DOT format](http://www.graphviz.org/Documentation/dotguide.pdf), and uses [Graphviz](http://graphviz.org/) (also available in [browser](http://webgraphviz.com/)) to visualise the diagrams.
+
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
 
