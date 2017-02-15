@@ -25,14 +25,28 @@ We have also made the [source code](https://github.com/sbusari/RADAR) of the too
 
 # How to use RADAR
 RADAR is a self-contained jar file. Simply download the file to your computer and double click to launch the application (needs JRE 1.7 or later versions). Once the application is launched successfully, a window appears with three panels as shown in figure 1:
-  - Model Board where modellers can write their own models and also load existing models for review.
-  - Analysis Settings for specifying parameters for model analysis. Examples of these parameters includes:
+  - **Model Board** where modellers can write their own models and also load existing models for review.
+  - **Analysis Settings** for specifying parameters for model analysis. Examples of these parameters includes:
    - The number of Monte-Carlo simulation run.
    - Output directory where model analysis results are stored.
    - Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi)
-   - Sub-graph objective for restricting the AND/OR graph to a single specified objective
+   - Sub-graph objective for restricting the AND/OR graph to a single specified objective.
    - Some checkboxes used to indicate users' preferences on whether the tool should generate AND/OR dependency graph, decision dependency graph and the Pareto front.
   - **Decisions** which displays all specified model decisions and their corresponding options once the model has been parsed successfully.
+  
+To analyse an existing RADAR model, the following steps can be followed:
+
+1. Enable the model board by either clicking enable model board under the Radar menu or clicking the write model under the Action menu.
+2. Open the RADAR file (we recommend starting with the first example below i.e. refactoring cost-benefit analysis) by simply clicking on the file menu and then click open to load the existing model on the model board as shown in figure 1. if successful, you will see the model displayed in the model board. At this point, users can edit the model and save changes by clicking on save under the file menu.
+3. Go to the Action menu and click parse model to check that the specified model conforms to RADAR syntaxes defined in the paper. If not, an error message is displayed. If successful, you will be prompted to either continue with analysing the model or you could decide to further review the model and later analyse the model by clicking analyse model under the Action menu. Note that before parsing the model, you will be required to specify the output directory, which stores model analysis results.
+4. If you click continue with model analysis, RADAR analyses the model as described in the paper, and the analysis results, such as the optimisation analysis, Pareto front (if checkbox is enabled) and information value analysis (if the information value objective is specified), are displayed in another window as shown in figure 2.
+
+RADAR also saves the following model outputs in the specified output directory:
+
+- The model analysis results in .csv and .out extensions.
+- The AND/OR variable dependency graph (which helps to communicate and validate traceability links between technical software characteristics) and decisions dependency graph (which helps to visualise the dependencies between decisions and options, and also to view a potentially large design space in terms of a smaller set of decisions and options). These graphs are saved in DOT format and can be viewed using Graphviz (also available in browser).
+- The Pareto front plot (in .PNG format) which is the set of optimal solutions that show the trade-off that can be made between the multiple and conflicting objectives.
+
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
