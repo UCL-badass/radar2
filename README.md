@@ -45,8 +45,15 @@ RADAR also saves the following model outputs in the specified output directory:
 
 - The model analysis results in .csv and .out extensions.
 - The AND/OR variable dependency graph (which helps to communicate and validate traceability links between technical software characteristics) and decisions dependency graph (which helps to visualise the dependencies between decisions and options, and also to view a potentially large design space in terms of a smaller set of decisions and options). These graphs are saved in DOT format and can be viewed using Graphviz (also available in browser).
-- The Pareto front plot (in .PNG format) which is the set of optimal solutions that show the trade-off that can be made between the multiple and conflicting objectives.
+- The Pareto front plot (in .PNG format) which is the set of optimal solutions that show the trade-offs between the multiple and conflicting objectives.
 
+To analyse your own model, simply follow the same steps after having edited your model in the tool or using an external text editor.
+
+For any question, email: {saheed.busari.13, e.letier}@ucl.ac.uk
+
+# Examples
+
+We have applied the tool to the following examples.
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
