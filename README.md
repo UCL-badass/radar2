@@ -62,19 +62,23 @@ We have applied the tool to the following examples.
 
 ## Refactoring cost-benefit analysis
 
-This is the small [refactoring example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/CBA.rdr) used in the paper to introduce the language and decision analysis method. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/refactoring_result.html).
+This is the small [refactoring example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/refactoring_result.html) used in the paper to introduce the language and decision analysis method. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/CBA.rdr).
 
 ## Plastic card fraud detection system
 
-The [running example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/FDM.rdr) used in the paper to illustrate the language and analysis functions. The problem consists in selecting among alternative design for a fraud detection system so as to minimise financial loss due to fraud and minimise the number of fraud alerts to be investigated manually. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/fds_report.html).
+The [running example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/fds_report.html) used in the paper to illustrate the language and analysis functions. The problem consists in selecting among alternative design for a fraud detection system so as to minimise financial loss due to fraud and minimise the number of fraud alerts to be investigated manually. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/FDM.rdr).
 
 ## Document sharing security policy
 
-The [document sharing example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/bspdm_report.html) analyses  security policy decisions for an organisation concerned with leaks of confidential information. The analysis extends previous models developed by Tristan Caulfield and David Pym for a real organistion. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/BSPDM.rdr).
+The [document sharing example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/bspdm_report.html) analyses  security policy decisions for an organisation concerned with leaks of confidential information. The analysis extends previous models developed by Tristan Caulfield and David Pym for a real organistion. The full model can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/BSPDM.rdr ).
 
 ## Emergency Response System
 
+This  [emergency response example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/sas_report.html ) illustrates the use of RADAR on an architecture decision problem used in previous publications (see ICSE 2013 for details). The design space for this model includes 6912 solutions and takes around 2 minutes to analyse.  The full model can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SAS.rdr).
+
 ## Satellite Image Processing
+
+This example was first introduce to illustrate the CBAM architecture decision method (see report for full references). We show here how to analyse this problem in RADAR and compare RADAR's approach to CBAM.
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
