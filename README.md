@@ -82,7 +82,7 @@ The [satellite image example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ecs_
 
 We have also applied RADAR on different [synthetic models](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModels.zip) to understand the scalability of the tool. The synthetic models are generated using a model generator that generates random syntactically valid RADAR models with a given number of objectives, decisions, number of options per decisions and minimum number of model variables. To create a synthetic model of a specific size, download the model generator jar file and run the command below:
 
-**java -jar ./Downloads/SytheticModelGenerator.jar ./Downloads/SyntheticModel.properties
+**java -jar ./Downloads/SytheticModelGenerator.jar ./Downloads/SyntheticModel.properties**
 
 In the command above, [SytheticModelGenerator.jar](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModelGenerator.jar) is the program that generates the synthetic model and [SyntheticModel.properties](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModel.properties) stores values for the RADAR model constructs, such as the number of objectives, decisions, number of options per decisions and minimum number of model variables. The file [SytheticModel.rdr](SyntheticModel.rdr) contains a synthetic RADAR model with decision dependency and has 2 objectives, minimum of 10 model variables, 4 decisions with their corresponding options ranging between 2 and 3.
 
