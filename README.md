@@ -63,83 +63,44 @@ We have applied the tool to the following examples.
 <thead>
 <tr>
 <th>Example</th>
-
 <th>Brief Description</th>
-
 <th>Report</th>
-
 <th>Radar File</th>
-
 <th></th>
-
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td>Refactoring cost-benefit analysis</td>
-
 <td>The small example used in the paper to introduce the language and decision analysis method</td>
-
 <td>[refactoring](refactoring_result.html)</td>
-
 <td>[refactoring.rdr](CBA.rdr)</td>
-
 </tr>
-
 <tr>
-
 <td>Plastic card fraud detection system</td>
-
 <td>The running example used in the paper to illustrate the language and analysis functions. The problem consists in selecting among alternative design for a fraud detection system so as to minimise financial loss due to fraud and minimise the number of fraud alerts to be investigated manually</td>
-
 <td>[fraud-detection](fds_report.html)</td>
-
 <td>[fraud-detection.rdr](FDM.rdr)</td>
-
 </tr>
-
 <tr>
-
 <td>Document sharing security policy</td>
-
 <td>This example analyses security policy decisions for an organisation concerned with leaks of confidential information. The analysis extends previous models developed by Tristan Caulfield and David Pym for a real organistion.</td>
-
 <td>[sharing-policy](bspdm_report.html)</td>
-
 <td>[sharing-policy.rdr](BSPDM.rdr)</td>
-
 </tr>
-
 <tr>
-
 <td>Emergency Response System</td>
-
 <td>This example illustrates the use of RADAR on an architecture decision problem used in previous publications (see the report for details). The design space for this model includes 6912 solutions and takes around 2 minutes to analyse.</td>
-
 <td>[emergency-response](sas_report.html)</td>
-
 <td>[emergency-response.rdr](SAS.rdr)</td>
-
 </tr>
-
 <tr>
-
 <td>Satellite Image Processing</td>
-
 <td>This example was first introduce to illustrate the CBAM architecture decision method (see report for full references). We show here how to analyse this problem in RADAR and compare RADAR's approach to CBAM.</td>
-
 <td>[nasa-ecs](ecs_report.html)</td>
-
 <td>[nasa-ecs.rdr](ECS.rdr)</td>
-
 </tr>
-
 </tbody>
-
 </table>
 
 # Instructions on running the souce code
