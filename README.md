@@ -80,6 +80,14 @@ This  [emergency response example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR
 
 The [satellite image example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ecs_report.html) was first introduced to illustrate the CBAM architecture decision method (see report for full references). We show here how to analyse this problem in RADAR and compare RADAR's approach to CBAM. The full model can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ECS.rdr).
 
+We have also applied RADAR on different [synthetic models](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModels.zip) to understand the scalability of the tool. The synthetic models are generated using a model generator that generates random syntactically valid RADAR models with a given number of objectives, decisions, number of options per decisions and minimum number of model variables. To create a synthetic model of a specific size, download the model generator jar file and run the command below:
+
+**java -jar ./Downloads/SytheticModelGenerator.jar ./Downloads/SyntheticModel.properties
+
+In the command above, [SytheticModelGenerator.jar](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModelGenerator.jar) is the program that generates the synthetic model and [SyntheticModel.properties](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/SyntheticModel.properties) stores values for the RADAR model constructs, such as the number of objectives, decisions, number of options per decisions and minimum number of model variables. The file [SytheticModel.rdr](SyntheticModel.rdr) contains a synthetic RADAR model with decision dependency and has 2 objectives, minimum of 10 model variables, 4 decisions with their corresponding options ranging between 2 and 3.
+
+The RADAR files can be opened and analysed in the tool following the steps outlined above.
+
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
