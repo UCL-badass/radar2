@@ -66,9 +66,11 @@ This is the small [refactoring example](http://www0.cs.ucl.ac.uk/staff/S.Busari/
 
 ## Plastic card fraud detection system
 
-The [running example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/FDM.rdr) used in the paper to illustrate the language and analysis functions. The problem consists in selecting among alternative design for a fraud detection system so as to minimise financial loss due to fraud and minimise the number of fraud alerts to be investigated manually. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/fds_report.html)
+The [running example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/FDM.rdr) used in the paper to illustrate the language and analysis functions. The problem consists in selecting among alternative design for a fraud detection system so as to minimise financial loss due to fraud and minimise the number of fraud alerts to be investigated manually. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/fds_report.html).
 
 ## Document sharing security policy
+
+The [document sharing example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/bspdm_report.html) analyses  security policy decisions for an organisation concerned with leaks of confidential information. The analysis extends previous models developed by Tristan Caulfield and David Pym for a real organistion. The full model and analysis results can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/BSPDM.rdr).
 
 ## Emergency Response System
 
