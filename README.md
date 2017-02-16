@@ -78,7 +78,8 @@ This  [emergency response example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR
 
 ## Satellite Image Processing
 
-This example was first introduce to illustrate the CBAM architecture decision method (see report for full references). We show here how to analyse this problem in RADAR and compare RADAR's approach to CBAM.
+The [satellite image example](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ECS.rdr) was first introduced to illustrate the CBAM architecture decision method (see report for full references). We show here how to analyse this problem in RADAR and compare RADAR's approach to CBAM. The full model can be downloaded [here](http://www0.cs.ucl.ac.uk/staff/S.Busari/RADAR/ecs_report.html).
+
 
 # Instructions on running the souce code
 The tool is implemented in Java and uses [ANTLR](http://www.antlr.org/) to generate model parser, generates diagrams in DOT format, and uses [Graphviz ](http://graphviz.org/)  to visualise the diagrams. To continue development on RADAR, follow the instructions below:
