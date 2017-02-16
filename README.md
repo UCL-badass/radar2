@@ -18,7 +18,7 @@ The modelling language and decision analysis support tool are described in the f
 
 The scalability analysis of RADAR desision support tool is described in the paper below:
 
-[Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanuel Letier](http://letier.cs.ucl.ac.uk/): "Scalability Analysis of the RADAR Decision Support Tool", Available Online: https://arxiv.org/pdf/1702.02977.pdf.
+[Saheed A. Busari](http://www0.cs.ucl.ac.uk/staff/S.Busari/) and [Emmanuel Letier](http://letier.cs.ucl.ac.uk/): "Scalability Analysis of the RADAR Decision Support Tool", Online: https://arxiv.org/pdf/1702.02977.pdf.
 
 # Downloads
 
