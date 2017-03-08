@@ -136,20 +136,26 @@ RADAR analysis provides useful feedback to requirement engineers and software de
 <h2> How to Use RADAR </h2>
 
 <p>RADAR is a self-contained jar file. Simply download the file to your computer and double click to launch the application (needs <a  href ="http://www.oracle.com/technetwork/java/javase/downloads/index.html"> JRE 1.7</a> or later versions). Once the application is launched successfully, a window appears with three panels as shown in figure 1:
+
+<p>RADAR has three main tabs that displays by default when it is launched:</p>
 <ul align ="justify">
 <li><strong>Editor </strong> where modellers can write their own models and also load existing models for review.</li>
 <li><strong>Analysis Result</strong> where the results of the optimisation and information value analysis are displayed.</li>
-    <li><strong>Analysis Settings</strong> for specifying parameters for model analysis and the path where Graphviz is installed to enable visualisation of the variable AND/OR graph and decision dependency graph. Examples of these parameters includes:
-<ol>
-<li>The number of Monte-Carlo simulation run. </li>
-<li>Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi) </li>
-<li>Variable sub-graph for which  the AND/OR graph is generated from the specified variable. </li>
-</ol></li>
+    <li><strong>Console</strong> where the RADAR analysis status are written.</li>
 </ul>
+
+<p>The <strong>Analysis Settings </strong> is used to specify parameters for model analysis and the path where Graphviz is installed to enable visualisation of the variable AND/OR graph and decision dependency graph. Examples of these parameters includes:</p>
+<ol>
+    <li>The number of Monte-Carlo simulation run. </li>
+    <li>Information value objective to be used for computing the expected value of total and partial perfect information (evtpi and evppi) </li>
+    <li>Variable sub-graph for which  the AND/OR graph is generated from the specified variable. </li>
+</ol>
+
+<p>Other tabs that are displayed after a successful RADAR analysis as shown in figure 2 are AND/OR goal graph, decision dependency graph and the Pareto-front</p>
 
 <p><strong>To analyse an existing model</strong>, the following steps can be followed:</p>
 <ol align ="justify">
-<li>Open the RADAR file (we recommend starting with the first example below i.e. refactoring cost-benefit analysis) by simply clicking on the file menu and then click  <strong>open</strong> to load the existing model on the model board as shown in figure 1. if successful, you will see the model displayed in the model board. At this point, users can edit the model and save changes by clicking on <strong>save</strong> under the file menu. </li>
+<li>Open the RADAR file (we recommend starting with the first shown in figure 1 i.e. refactoring cost-benefit analysis) by simply clicking on the file menu and then click  <strong>Examples</strong> to load the existing model on the editor. if successful, you will see the model displayed in the model board. At this point, users can edit the model and save changes by clicking on <strong>save</strong> under the file menu. </li>
 <li>Go to the Action menu and  click  <strong>parse model </strong> to check that the specified model conforms to RADAR syntaxes defined in the paper. If not, an error message is displayed. If successful, you will be prompted to either continue with analysing the model or you could decide to further review the model and later analyse the model by clicking <strong>analyse model</strong> under the Action menu. Note that before parsing the model, you will be required to specify the output directory, which stores model analysis results. </li>
 <li>If you click continue with model analysis, RADAR analyses the model as described in the paper, and the analysis results, such as the optimisation analysis, Pareto front and information value analysis (if the information value objective is specified), are displayed in another tab as shown in figure 2. </li>
 </ol>
